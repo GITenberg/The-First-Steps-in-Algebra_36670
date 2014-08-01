@@ -1,0 +1,36 @@
+/* -*-ePiX-*- */
+#include "epix.h"
+using namespace ePiX;
+
+std::string f(double t, unsigned int prec, unsigned int base)
+{
+  std::ostringstream buf;
+  buf << "$";
+  if (t == 0)
+    buf << "\\phantom{-}";
+
+  else if(0 < t)
+    buf << "+";
+
+  buf << t << "$";
+  return buf.str();
+}
+
+int main()
+{
+  picture(P(-5,0), P(6,1), "5 x 0.5in");
+
+  begin();
+  bold();
+  axis Ax(P(xmin(),0), P(xmax(),0), xsize(), P(3,10), tl);
+  Ax.align(t);
+
+  line(P(xmin(),0), P(xmax(),0), 20);
+  Ax.label_rep(f).draw();
+
+  label(P(xmin() - 0.5,0), P(0, 14), "$\\cdots$", l);
+  label(P(xmax() + 0.5,0), P(0, 14), "$\\cdots$", r);
+
+  tikz_format();
+  end();
+}

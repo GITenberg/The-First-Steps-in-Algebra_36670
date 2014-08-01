@@ -1,0 +1,40 @@
+%% Generated from fig1.xp on Thu Jul  7 12:53:38 EDT 2011 by
+%% ePiX-1.2.4
+%% 
+%%   Cartesian bounding box: [0,12] x [0,1]
+%%   Actual size: 5 x 0.5in
+%%   Figure offset: left by 0in, down by 0in
+%% 
+%% usepackages tikz
+%% 
+\xdefinecolor{rgb_000000}{rgb}{0,0,0}%
+\begin{tikzpicture}
+\pgfsetlinewidth{0.4pt}
+\useasboundingbox (0in,0in) rectangle (5in,0.5in);
+\pgfsetlinewidth{0.8pt}
+\draw (0.106878in,0in)--(2.5in,0in)--(4.89312in,0in);
+\draw (0.416667in,0in)--(2.5in,0in)--(4.58333in,0in);
+\pgftext[at={\pgfpoint{0.416667in}{0in}}] {\makebox(0,0)[b]{\hbox{\color{rgb_000000}$\rule{0.5pt}{6pt}$}}}
+\pgftext[at={\pgfpoint{0.833333in}{0in}}] {\makebox(0,0)[b]{\hbox{\color{rgb_000000}$\rule{0.5pt}{6pt}$}}}
+\pgftext[at={\pgfpoint{1.25in}{0in}}] {\makebox(0,0)[b]{\hbox{\color{rgb_000000}$\rule{0.5pt}{6pt}$}}}
+\pgftext[at={\pgfpoint{1.66667in}{0in}}] {\makebox(0,0)[b]{\hbox{\color{rgb_000000}$\rule{0.5pt}{6pt}$}}}
+\pgftext[at={\pgfpoint{2.08333in}{0in}}] {\makebox(0,0)[b]{\hbox{\color{rgb_000000}$\rule{0.5pt}{6pt}$}}}
+\pgftext[at={\pgfpoint{2.5in}{0in}}] {\makebox(0,0)[b]{\hbox{\color{rgb_000000}$\rule{0.5pt}{6pt}$}}}
+\pgftext[at={\pgfpoint{2.91667in}{0in}}] {\makebox(0,0)[b]{\hbox{\color{rgb_000000}$\rule{0.5pt}{6pt}$}}}
+\pgftext[at={\pgfpoint{3.33333in}{0in}}] {\makebox(0,0)[b]{\hbox{\color{rgb_000000}$\rule{0.5pt}{6pt}$}}}
+\pgftext[at={\pgfpoint{3.75in}{0in}}] {\makebox(0,0)[b]{\hbox{\color{rgb_000000}$\rule{0.5pt}{6pt}$}}}
+\pgftext[at={\pgfpoint{4.16667in}{0in}}] {\makebox(0,0)[b]{\hbox{\color{rgb_000000}$\rule{0.5pt}{6pt}$}}}
+\pgftext[at={\pgfpoint{4.58333in}{0in}}] {\makebox(0,0)[b]{\hbox{\color{rgb_000000}$\rule{0.5pt}{6pt}$}}}
+\pgftext[at={\pgfpoint{0.416667in}{0.13837in}}] {\makebox(0,0)[b]{\hbox{\color{rgb_000000}$1$}}}
+\pgftext[at={\pgfpoint{0.833333in}{0.13837in}}] {\makebox(0,0)[b]{\hbox{\color{rgb_000000}$2$}}}
+\pgftext[at={\pgfpoint{1.25in}{0.13837in}}] {\makebox(0,0)[b]{\hbox{\color{rgb_000000}$3$}}}
+\pgftext[at={\pgfpoint{1.66667in}{0.13837in}}] {\makebox(0,0)[b]{\hbox{\color{rgb_000000}$4$}}}
+\pgftext[at={\pgfpoint{2.08333in}{0.13837in}}] {\makebox(0,0)[b]{\hbox{\color{rgb_000000}$5$}}}
+\pgftext[at={\pgfpoint{2.5in}{0.13837in}}] {\makebox(0,0)[b]{\hbox{\color{rgb_000000}$6$}}}
+\pgftext[at={\pgfpoint{2.91667in}{0.13837in}}] {\makebox(0,0)[b]{\hbox{\color{rgb_000000}$7$}}}
+\pgftext[at={\pgfpoint{3.33333in}{0.13837in}}] {\makebox(0,0)[b]{\hbox{\color{rgb_000000}$8$}}}
+\pgftext[at={\pgfpoint{3.75in}{0.13837in}}] {\makebox(0,0)[b]{\hbox{\color{rgb_000000}$9$}}}
+\pgftext[at={\pgfpoint{4.16667in}{0.13837in}}] {\makebox(0,0)[b]{\hbox{\color{rgb_000000}$10$}}}
+\pgftext[at={\pgfpoint{4.58333in}{0.13837in}}] {\makebox(0,0)[b]{\hbox{\color{rgb_000000}$11$}}}
+\pgftext[at={\pgfpoint{0in}{0in}}] {\makebox(0,0)[c]{\hbox{\color{rgb_000000}$0$}}}
+\end{tikzpicture}

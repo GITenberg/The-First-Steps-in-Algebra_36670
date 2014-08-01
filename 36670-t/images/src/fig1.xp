@@ -1,0 +1,21 @@
+/* -*-ePiX-*- */
+#include "epix.h"
+using namespace ePiX;
+
+int main()
+{
+  picture(P(0,0), P(12,1), "5 x 0.5in");
+
+  begin();
+  bold();
+  axis Ax(P(1,0), P(11,0), 10, P(0,10), t);
+  Ax.align(t);
+
+  line(P(1,0), P(11,0), 20);
+  Ax.draw();
+
+  label(P(0,0), "$0$");
+
+  tikz_format();
+  end();
+}
