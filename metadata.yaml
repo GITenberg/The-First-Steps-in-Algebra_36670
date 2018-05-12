@@ -1,0 +1,28 @@
+_repo: The-First-Steps-in-Algebra_36670
+_version: 0.1.0
+covers:
+- cover_type: generated
+  image_path: cover.png
+creator:
+  author:
+    agent_name: Wentworth, G. A. (George Albert)
+    alias: Wentworth, George Albert
+    birthdate: 1835
+    deathdate: 1906
+    gutenberg_agent_id: '38412'
+    url: http://www.gutenberg.org/2009/agents/38412
+description: ''
+gutenberg_bookshelf: Mathematics
+gutenberg_issued: '2011-07-09'
+gutenberg_type: Text
+identifiers:
+  gutenberg: '36670'
+language: en
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+rights_url: http://creativecommons.org/about/pdm
+subjects:
+- !lcsh 'Algebra'
+- !lcc 'QA'
+title: The First Steps in Algebra
+url: http://www.gutenberg.org/ebooks/36670
